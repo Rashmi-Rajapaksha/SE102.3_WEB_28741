@@ -1,0 +1,67 @@
+<html>
+<head>
+<title>second form </title>
+</head>
+<body>
+<h1>car registration </h1>
+<form action="/submit_form" method="post" style="display: flex; flexdirection: 
+column;">
+ <fieldset>
+ <legend>Car Registration</legend>
+<table>
+<tr>
+<td><label for="name"> Owner Name:</label></td>
+<td><input type="text" id="name" name="name" placeholder="Owner Name"></td>
+</tr>
+<tr>
+<td><label for="email">Email:</label></td>
+<td><input type="text" id="email" name="email" placeholder="Email"></td>
+</tr>
+<tr>
+<td><label for="phone">Phone:</label></td>
+<td><input type="text" id="phone" name="phone" placeholder="Phone number"></td>
+</tr>
+<tr>
+<td><label for="country">Country:</label></td>
+<td><select id="country" name="country">
+<option value="" disabled selected>Select your country</option>
+<option value="Sri Lanka ">Sri Lanka </option>
+<option value="Canada">Canada</option>
+<option value="UK">United Kingdom</option>
+</select></td>
+</tr>
+<tr>
+<td><label for="model "> Car Model</label></td>
+<td><input type="text" id="model " name="model " required></td>
+</tr>
+<tr>
+<td><label for="year ">Manufacture Year </label></td>
+<td><select id="year " name="year ">
+<option value="" disabled selected>Select your year</option>
+<option value="2016 ">2016 </option>
+<option value="2017 ">2017 </option>
+<option value="2018 ">2018 </option>
+</select></td>
+</tr>
+<tr>
+<td><label>Transmission </label></td>
+<td><input type="radio" id="Manual " name=" transmission" value="Manual " required>
+<label for="Manual ">Manual</label>
+<input type="radio" id="Auto" name="Transmission " value="Auto ">
+<label for="Auto">Auto </label></td>
+</tr>
+<tr>
+<td><label for="message">Other </label></td>
+<td><textarea id="message" name="message" rows="4" required></textarea></td>
+</tr>
+<tr>
+</table>
+<input type="checkbox" id="agree " name="agree ">
+<label for="agree ">I agree to the conditions and terms </label>
+<br><br>
+<button type="submit">Submit</button>
+<button type="reset">Reset</button>
+ </fieldset>
+</form>
+</body>
+</html>

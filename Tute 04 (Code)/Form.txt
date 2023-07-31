@@ -1,0 +1,59 @@
+<html>
+<head>
+<title>First Form</title>
+</head>
+<body>
+<h1>Registration Form </h1>
+<form action="/submit_form" method="post">
+<table>
+<tr>
+<td><label for="fname"> First Name:</label></td>
+<td><input type="text" id="fname" name="fname" required></td>
+</tr>
+<tr>
+<td><label for="lname"> Last Name:</label></td>
+<td><input type="text" id="lname" name="lname" required></td>
+</tr>
+<tr>
+<td><label for="phone">Mobile Number:</label></td>
+<td><input type="text" id="phone" name="phone" required></td>
+</tr>
+<tr>
+<td><label for="gender">Gender:</label></td>
+<td><input type="radio" id="male" name="gender" value="male">
+<label for="male">Male</label>
+<input type="radio" id="female" name="gender" value="female">
+<label for="female">Female</label></td>
+</tr>
+<tr>
+<td><label for="email">Email:</label></td>
+<td><input type="text" id="email" name="email" required></td>
+</tr>
+<tr>
+<td><label>Favourite Music:</label></td> 
+<td><label for="POP">POP</label>
+<input type="checkbox" id="pop" name="Favourite Musi" value="pop">
+<label for="Rock">Rock</label>
+<input type="checkbox" id="Rock" name="Favourite Musi" value="Rock">
+<label for="Other">Other</label>
+<input type="checkbox" id="Other" name="Favourite Musi" value="Other"></td>
+</tr>
+<tr>
+<td><label for="message">Aditional Details:</label></td>
+<td><textarea id="message" name="message" rows="4" cols="21" required></textarea></td>
+</tr>
+<tr>
+</table>
+<input type="checkbox" id="condiotns" name="conditions" required>
+<label for="condition">I agree to the terms and conditions</label>
+<br><br>
+<button type="submit">Submit</button>
+<td><button type="reset">Reset</button>
+
+</form>
+</body>
+</html>
+
+
+
+
