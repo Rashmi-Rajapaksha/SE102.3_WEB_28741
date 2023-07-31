@@ -1,0 +1,35 @@
+<html>
+<head>
+<title center align>Loging Form</title>
+</head>
+<body>
+<table>
+<tr>
+<td>
+<h3>Loging Form</h3>
+</td>
+
+<form action="form_action.php" method="post">
+<tr>
+<td>
+<label for="name">Name:</label>
+</td>
+<td>
+<input type="text" id="name" name="name" placeholder="Enter Your name">
+<br>
+</td>
+<tr>
+<td>
+<label for="index_number">Index Number:</label>
+</td>
+<td>
+<input type="text" id="index_number" name="index_number" placeholder="Enter Your index number">
+</td>
+<br>
+<tr>
+<td>
+<input type="submit" value="Submit">
+</td>
+</form>
+</body>
+</html>
